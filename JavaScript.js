@@ -44,10 +44,10 @@ console.log("Chu vi:",result42);
 
 //Bài tập 5
 //Input
-var tmpNumber = 84;
+var tmpNumber = 86;
 //Process
 var so_hang_dv = tmpNumber % 10;
-var so_hang_chuc = Math.round(tmpNumber/10);
+var so_hang_chuc = parseInt((tmpNumber%100)/10)
 var result5 = so_hang_dv + so_hang_chuc;
 //Output
 console.log("Tổng 2 ký số của số vừa nhập:",result5);
